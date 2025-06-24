@@ -129,3 +129,60 @@
 //   print(!varFalse);
 //   print(varTrue == varFalse);
 // }
+
+// void main(List<String> arguments) {
+//   List<String> lstString = [];
+//   var lstInt = [1, 10, 50];
+//   List lstDynamic = [];
+
+//   print("Tamanho da lista");
+//   print(lstString.length);
+//   print(lstInt.length);
+//   print(lstDynamic.length);
+
+//   print(lstString);
+//   print(lstInt);
+//   print(lstDynamic);
+
+//   print("Adicionar item");
+//   lstString.add("M");
+//   //lstString.add(10); //Dá erro, pois o lstString é uma lista de Strings
+//   lstString.add("B");
+//   lstInt.add(90);
+//   lstDynamic.add("A");
+//   lstDynamic.add(10);
+//   lstDynamic.add(9.5);
+//   lstDynamic.add(true);
+
+//   print("Tamanho da lista");
+//   print(lstString.length);
+//   print(lstInt.length);
+//   print(lstDynamic.length);
+
+//   print(lstString);
+//   print(lstInt);
+//   print(lstDynamic);
+
+//   print("Remover item");
+//   lstString.remove("M");
+//   lstInt.remove(90);
+//   lstDynamic.remove(9.5);
+
+//   print(lstString);
+//   print(lstInt);
+//   print(lstDynamic);
+
+//   print("Verifica se a lista está ou não vazia");
+//   print(lstString.isEmpty);
+//   print(lstInt.isNotEmpty);
+
+//   print("Se um valor está contido na lista");
+//   print(lstString.contains("C"));
+//   print(lstDynamic.contains(true));
+
+//   print("Função where");
+//   print(lstInt);
+//   print(lstInt.where((x) => x > 9 && x < 99));
+
+//   print(lstInt.reversed);
+//}
