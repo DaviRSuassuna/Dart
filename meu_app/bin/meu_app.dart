@@ -72,49 +72,60 @@
 // //print(double.parse("teste")); //ERRO
 // print(double.tryParse("teste"));
 //}
-void main(List<String> arguments) {
-  String texto1 = "Dio";
-  var texto2 = "Trilha de Flutter e DART na DIO";
+// void main(List<String> arguments) {
+//   String texto1 = "Dio";
+//   var texto2 = "Trilha de Flutter e DART na DIO";
 
-  //Imprime no console o texto
-  print(texto1);
-  print(texto2);
+//   //Imprime no console o texto
+//   print(texto1);
+//   print(texto2);
 
-  //Comparação de vazio
-  print(texto2.isEmpty); //Se for vazio retorna true
-  print("".isEmpty);
-  print(" ".isEmpty);
+//   //Comparação de vazio
+//   print(texto2.isEmpty); //Se for vazio retorna true
+//   print("".isEmpty);
+//   print(" ".isEmpty);
 
-  //Tamanho da Sting
-  print(texto1.length);
-  print(texto2.length);
+//   //Tamanho da Sting
+//   print(texto1.length);
+//   print(texto2.length);
 
-  //Maiuscula / Minuscula
-  print(texto1.toUpperCase());
-  print(texto2.toLowerCase());
+//   //Maiuscula / Minuscula
+//   print(texto1.toUpperCase());
+//   print(texto2.toLowerCase());
 
-  //Se uma String contem outra
-  print(texto2.contains(texto1.toUpperCase()));
+//   //Se uma String contem outra
+//   print(texto2.contains(texto1.toUpperCase()));
 
-  //Armazena ou mostra uma parte da String
-  print(texto2.substring(7));
-  print(texto2.substring(0, 12));
+//   //Armazena ou mostra uma parte da String
+//   print(texto2.substring(7));
+//   print(texto2.substring(0, 12));
 
-  //Armazena ou mostra a posição de um texto em uma String
-  print(texto2.indexOf("Flutter"));
-  print(texto2.indexOf("T"));
-  print(texto2.indexOf("Dio".toUpperCase()));
-  print(texto2.indexOf("@")); //Retorna -1 caso não exista nada
+//   //Armazena ou mostra a posição de um texto em uma String
+//   print(texto2.indexOf("Flutter"));
+//   print(texto2.indexOf("T"));
+//   print(texto2.indexOf("Dio".toUpperCase()));
+//   print(texto2.indexOf("@")); //Retorna -1 caso não exista nada
 
-  //Substitui uma String por outra
-  print(texto2.replaceAll("a", "@"));
+//   //Substitui uma String por outra
+//   print(texto2.replaceAll("a", "@"));
 
-  //Quebra uma String por um caracter especifico
-  print(texto2.split("a"));
-  print("NOME;ENDEREÇO;CEP".split(";"));
+//   //Quebra uma String por um caracter especifico
+//   print(texto2.split("a"));
+//   print("NOME;ENDEREÇO;CEP".split(";"));
 
-  //Remove espaços
-  print("  dio  ".trim());
-  print("  dio  ".trimLeft());
-  print("  dio  ".trimRight());
-}
+//   //Remove espaços
+//   print("  dio  ".trim());
+//   print("  dio  ".trimLeft());
+//   print("  dio  ".trimRight());
+//}
+
+// void main(List<String> arguments) {
+//   var varTrue = true;
+//   bool varFalse = false;
+
+//   print(varTrue);
+//   print(varFalse);
+//   print(!varTrue);
+//   print(!varFalse);
+//   print(varTrue == varFalse);
+// }
