@@ -186,3 +186,35 @@
 
 //   print(lstInt.reversed);
 //}
+
+// void main(List<String> arguments) {
+//   Map<String, dynamic> map1 = <String, dynamic>{};
+//   var map = {'zero': 0, 'one': 1, 'two': 2};
+
+//   print(map1);
+//   print(map);
+
+//   print("Obtem valor pela chave");
+//   print(map["one"]);
+
+//   map.addAll({'ten': 10, 'eleven': 11});
+//   print(map);
+
+//   print("Se vazio");
+//   print(map.isNotEmpty);
+//   print(map1.isEmpty);
+
+//   print("Tamanho");
+//   print(map.length);
+
+//   print("Chave");
+//   print(map1.containsKey("eleven"));
+//   print(map1.containsKey("teste"));
+
+//   map1.addAll({"Nome": "Davi"});
+//   map1.addAll({"Idade": 18});
+//   map1.addAll({"Casado": false});
+//   map1.addAll({"Nascimento": DateTime(2007, 01, 26)});
+//   print(map1);
+//   print(map1["Idade"]);
+// }
