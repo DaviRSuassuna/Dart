@@ -1,3 +1,5 @@
+// import "dart:convert";
+// import "dart:io";
 // import 'package:meu_app/meu_app.dart' as meu_app;
 
 //void main(List<String> arguments) {
@@ -254,30 +256,55 @@
 //   print(var1);
 // }
 
+// void main(List<String> arguments) {
+//   DateTime data1 = DateTime.now();
+//   // data1 = DateTime.parse("2025-06-27 15:30:00");
+
+//   print(data1);
+//   print(data1.day);
+//   print(data1.month);
+//   print(data1.year);
+//   print(data1.hour);
+//   print(data1.minute);
+//   print(data1.second);
+
+//   print(data1.weekday);
+
+//   print(data1);
+//   data1 = data1.add(Duration(days: 1));
+//   print(data1.add(Duration(days: 1)));
+//   print(data1);
+
+//   print(data1.subtract(Duration(hours: 1)));
+//   print(data1);
+
+//   var data2 = DateTime.parse("2022-02-01 00:00:00");
+//   print(data1.isAfter(data2));
+//   print(data1.isBefore(data2));
+//   print(data1.compareTo(data2));
+// }
+
+//-------------------------------------------
+
 void main(List<String> arguments) {
-  DateTime data1 = DateTime.now();
-  // data1 = DateTime.parse("2025-06-27 15:30:00");
+  var prova1 = 9;
+  var prova2 = 5;
+  var media = (prova1 + prova2) / 2;
+  print(media);
 
-  print(data1);
-  print(data1.day);
-  print(data1.month);
-  print(data1.year);
-  print(data1.hour);
-  print(data1.minute);
-  print(data1.second);
+  if (media >= 7) {
+    print("Passou, parabéns!!!");
+  } else {
+    print("Melhor estudar para a recuperação...");
+  }
 
-  print(data1.weekday);
-
-  print(data1);
-  data1 = data1.add(Duration(days: 1));
-  print(data1.add(Duration(days: 1)));
-  print(data1);
-
-  print(data1.subtract(Duration(hours: 1)));
-  print(data1);
-
-  var data2 = DateTime.parse("2022-02-01 00:00:00");
-  print(data1.isAfter(data2));
-  print(data1.isBefore(data2));
-  print(data1.compareTo(data2));
+  if ((prova1 < 7) || (prova2 < 7)) {
+    print(
+      "Deve estudar mais para ficar com uma boa nota em todas as provas...",
+    );
+  }
 }
+
+//------------------------------------------------
+
+
