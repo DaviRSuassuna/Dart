@@ -1,16 +1,15 @@
-import 'dart:io';
-import 'dart:convert';
+import 'package:meu_app3/utils.dart' as utils;
 
 void functionFor() {
-  print("Digite a quantidade de vezes que o laço for vai rodar: ");
-  var line = stdin.readLineSync(encoding: utf8);
-  var quantidade = int.parse(line ?? "0");
+  var line = utils.ler(
+    "Digite a quantidade de vezes que o laço for vai rodar: ",
+  );
+  var quantidade = int.parse(line);
   var resultado = 0;
 
   for (var i = 1; i <= quantidade; i++) {
-    print("Informe o número [$i]: ");
-    line = stdin.readLineSync(encoding: utf8);
-    var num = int.parse(line ?? "0");
+    line = utils.ler("Informe o número [$i]: ");
+    var num = int.parse(line);
     resultado += num;
     print("$i - $resultado");
   }

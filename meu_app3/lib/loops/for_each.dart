@@ -12,7 +12,7 @@ void forEach() {
     print(letra);
   }
   //O de cima e o de baixo dão o mesmo resultado
-  letras.forEach((letra) {
+  for (var letra in letras) {
     print(letra);
-  });
+  }
 }

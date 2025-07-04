@@ -1,16 +1,11 @@
-import 'dart:convert';
-import 'dart:io';
+import 'package:meu_app3/utils.dart' as utils;
 
-void functionWhile() {
-  var acumulador = 0.0;
-  print("Digite um número ou '-1' para sair: ");
-  var line = stdin.readLineSync(encoding: utf8);
-  var num = 0.0;
+void main(List<String> args) {
+  var line = "";
+  List<double> nums = [];
   while (line != "exit") {
-    num = double.parse(line ?? "0");
-    acumulador += num;
-    print("Digite um número ou 'exit' para sair: ");
-    line = stdin.readLineSync(encoding: utf8);
+    line = utils.ler("Digite um número ou 'exit' para sair: ");
+    nums.add(utils.lerDouble(line));
   }
-  print(acumulador);
+  print(utils.adicaoList(nums));
 }
